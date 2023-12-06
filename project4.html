@@ -4,43 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>Joshua Chin Portfolio</title>
     <link rel="stylesheet" href="styles/simple-grid.css">
     <link rel="stylesheet" href="styles/main.css">
+    <script src="https://kit.fontawesome.com/10d1e6cd7e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
         <div class="row nav_bar">
-            <div class="col-4">
-                <a href="/">Lorem Ipsum</a>
-            </div>
-
-            <div class="col-4">
-                <a href="mailto:email@gmail.com">Contact&#8594;
-                </a>
-            </div>
-
-            <div class="col-4">
-                <a href="https://www.instagram.com">Instagram &#8599;</a>
-            </div>
-        </div>
+            <ul class="right">
+                </html><a href="portfolio.html"><i class id="fa-solid fa-arrow-left" style = "padding:5px;font-size:20px;color:bisque;"></i>ART 74</a>
+                <a href="About.html">About</a>
+                <div class="dropdown">
+                    <a href="https://www.instagram.com">Contact</a>
+                <div class="dropdown-content">
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="color: rgb(44, 40, 40);"></i></a>
+                    <a href="https://www.discord.com/"><i class="fa-brands fa-discord"style="color: rgb(44, 40, 40);"></i></a>
+                    <a href="https://www.x.com/"><i class="fa-brands fa-x-twitter"style="color: rgb(44, 40, 40);"></i></a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a><i class="fa-solid fa-bars" style = "padding: 10px;font-size:20px;color:bisque;"></i></a>
+                <div class="dropdown-content">
+                    <a href="portfolio.html">ART 74</a>
+                    <a href="ART 75.html">ART 75</a>
+                    <a href="other classes.html">OTHER CLASSES</a>
+                    </div>
+                </div>
+            </ul>
+            <ul class="left">
+                <a href="index.html" style="font-style: italic;font-family:'Lucida Sans Unicode';">JOSHUA CHIN</a>
+            </ul>
+        </div>  
 
 
         <div class="row project_page_description">
-            <div class="col-4">
-                <h3>Project Title</h3>
-                <p class="project_tools">Tool(s): Adobe Animate</p>
+            <div class="col-4" style="text-align: center;">
+                <h3>12 Months of Holidays</h3>
+                <p class="project_tools">Tool Adobe Premiere Pro</p>
             </div>
-            <div class="col-8">
-                <p>Project Description: Describe how you made this and any other information you'd like to include about the work. For example: this animation was made using Adobe Animate. I sourced my images and imported them to the canvas and I used motion tweens to create the animation. Or... I used Photoshop in this image to create a new species. I used an image of a crocodile, a duck, and a lion to create a composite. I used some color corrections and also used masks for certain areas of the image. </p>
+            <div class="col-8" style="text-align: center;">
+                <p>12 Months of Holidays is a very simple project: I found 12 clips that represented some kind of holiday (that I celebrated) for each consecutive month. I cut each clip down to about 10 seconds to create a 2 minute film. The clips I chose were designed to have slight camera veering to offer a vague cinematic feel to them.  </p>
             </div>
       </div>
         <div class="row">
-            <div class="col-12">
-                <img src="images/test_image.jpg"/>
-                <p>Project caption: you can name your image, or just leave it as: Project 1, etc.</p>
+            <div class="col-12" style="text-align: center;">
+                <video width="640" height="360" controls>
+                    <source src="images/project4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>The first Adobe Premiere Pro, or video assignment in Art 74</p>
             </div>
         </div>
         </div>
     </body>
-</html>
