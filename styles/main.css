@@ -12,7 +12,8 @@
 }
 
 .homepage_project_image {
-    max-width: 700px;
+    width: 500px;
+    height: 500px;
 }
 .project_card_name  {
     text-align: center;
